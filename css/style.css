@@ -67,7 +67,6 @@ body {
     height: 100%;
     width: 80%;
     margin: auto;
-
 }
 
 .NewHP {
@@ -86,7 +85,6 @@ body {
 .title {
     height: 80px;
     width: 60%;
-    background-color: chartreuse;
     margin: 5px;
 }
 
@@ -142,7 +140,6 @@ body {
 .map {
     height: 500px;
     width: 100%;
-
 }
 
 .footer {
@@ -175,8 +172,6 @@ p {
     color: #232323;
     font-weight: 400;
     line-height: 1.6;
-
-
 }
 
 .col {
@@ -202,6 +197,26 @@ p {
     height: 45%;
     margin: auto;
 }
-h3{
+
+h3 {
     margin: 5px;
+}
+.row{
+    height: 100%;
+    width: 60%;
+    background-color: red;
+    margin: auto;
+    
+}
+.media-container{
+    height:100%;
+    width: 80%;
+    background-color: orange;
+    float: left;
+}
+.media-logo{
+    height: 100%;
+    width: 20%;
+    background-color: green;
+    float: right;
 }
