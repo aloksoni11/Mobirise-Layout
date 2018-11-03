@@ -17,8 +17,9 @@ body {
 .header {
     height: 60px;
     width: 100%;
-    background-color: #ffff002e;
-    position: absolute;
+    background-color: #fac769;
+    position: fixed;
+    z-index: 1;
 }
 
 .icon {
@@ -46,7 +47,6 @@ body {
 .contain {
     overflow: auto;
     width: 100%;
-    background-color: ;
 }
 
 .text2 {
@@ -77,7 +77,6 @@ body {
 .container {
     overflow: auto;
     width: 80%;
-    background-color: ;
     margin: auto;
     padding-top: 100px;
 }
@@ -92,7 +91,6 @@ body {
     width: 30%;
     height: 496px;
     background-color: #fac769;
-    margin: ;
     float: left;
     margin: 5px;
 }
@@ -107,20 +105,19 @@ body {
 .card-item {
     width: 100%;
     height: 100%;
-    background: green;
+    position: relative;
 }
 
 .adv1 {
     height: 150px;
     width: 100%;
-    background-color: aqua;
+    background-color: #fac769;
     margin-top: 100px;
 }
 
 .title3 {
     height: 80px;
     width: 80%;
-    background-color: chartreuse;
     margin: 100px;
 }
 
@@ -129,6 +126,7 @@ body {
     height: 285px;
     float: left;
     padding: 10px;
+    position: relative;
 }
 
 .location {
@@ -145,8 +143,6 @@ body {
 .footer {
     height: 150px;
     width: 100%;
-    background-color: aqua;
-    margin-top: 50px;
 }
 
 strong {
@@ -189,7 +185,6 @@ p {
 .pic {
     width: 100%;
     height: 50%;
-    background-color: aquamarine;
 }
 
 .info {
@@ -201,22 +196,85 @@ p {
 h3 {
     margin: 5px;
 }
-.row{
+
+.row {
     height: 100%;
     width: 60%;
-    background-color: red;
     margin: auto;
-    
 }
-.media-container{
-    height:100%;
+
+.media-container {
+    height: 100%;
     width: 80%;
-    background-color: orange;
+    background-color: #fac769;
     float: left;
 }
-.media-logo{
+
+.media-logo {
     height: 100%;
     width: 20%;
-    background-color: green;
+    background-image: url(../images/learn%20icon.JPG);
+    background-position: center center;
     float: right;
+}
+
+.boldNum {
+    height: 30%;
+    position: absolute;
+    width: 100%;
+    font-size: 64px;
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+    font-stretch: 100%;
+    font-weight: 700;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.Card-text {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    z-index: 1;
+    font-size: 9px;
+}
+
+p {
+    color: #767676;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.map-text {
+    height: 100%;
+    width: 40%;
+    margin: auto;
+}
+
+.left {
+    height: 100%;
+    width: 30%;
+    background-image: url(../images/footer-left.JPG);
+    background-position: center -40px;
+    float: left;
+}
+
+.right {
+    height: 100%;
+    width: 30%;
+    float: right;
+    background-image: url(../images/footer-right.JPG);
+    background-position: center center;
+}
+
+.center {
+    height: 100%;
+    width: 40%;
+    float: left;
+    background-image: url(../images/footer-center.JPG);
+    background-position: center center;
 }
